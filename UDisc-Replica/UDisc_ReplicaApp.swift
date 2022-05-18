@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct UDisc_ReplicaApp: App {
+    
     var body: some Scene {
         WindowGroup {
             PreviewView()

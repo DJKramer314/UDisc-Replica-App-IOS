@@ -13,6 +13,7 @@
 		FC03C2282834557700B1EF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2272834557700B1EF2A /* Preview Assets.xcassets */; };
 		FC03C24B2834650500B1EF2A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C24A2834650500B1EF2A /* Header.swift */; };
 		FC350CAB28353B93009CAE50 /* ScoresScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */; };
+		FC350CAD2835486D009CAE50 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC350CAC2835486D009CAE50 /* MoreView.swift */; };
 		FCF1C5AC283485420011155A /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AB283485420011155A /* StatsBar.swift */; };
 		FCF1C5AE283493D60011155A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AD283493D60011155A /* PreviewView.swift */; };
 		FCF1C5B1283494850011155A /* CreateScorecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5B0283494850011155A /* CreateScorecardView.swift */; };
@@ -27,6 +28,7 @@
 		FC03C2292834557700B1EF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC03C24A2834650500B1EF2A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresScrollView.swift; sourceTree = "<group>"; };
+		FC350CAC2835486D009CAE50 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		FCF1C5AB283485420011155A /* StatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
 		FCF1C5AD283493D60011155A /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		FCF1C5B0283494850011155A /* CreateScorecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScorecardView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 				FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */,
 				FCF1C5AD283493D60011155A /* PreviewView.swift */,
 				FC03C2222834557700B1EF2A /* RoundsView.swift */,
+				FC03C24A2834650500B1EF2A /* Header.swift */,
+				FC350CAC2835486D009CAE50 /* MoreView.swift */,
 				FCF1C5AF283494580011155A /* RoundsViewFiles */,
 				FC03C2242834557700B1EF2A /* Assets.xcassets */,
 				FC03C2292834557700B1EF2A /* Info.plist */,
@@ -84,7 +88,6 @@
 		FCF1C5AF283494580011155A /* RoundsViewFiles */ = {
 			isa = PBXGroup;
 			children = (
-				FC03C24A2834650500B1EF2A /* Header.swift */,
 				FCF1C5AB283485420011155A /* StatsBar.swift */,
 				FCF1C5B0283494850011155A /* CreateScorecardView.swift */,
 				FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */,
@@ -168,6 +171,7 @@
 				FCF1C5AC283485420011155A /* StatsBar.swift in Sources */,
 				FC03C24B2834650500B1EF2A /* Header.swift in Sources */,
 				FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */,
+				FC350CAD2835486D009CAE50 /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

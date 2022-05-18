@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PreviewView: View {
+    
     var body: some View {
         TabView {
             RoundsView()
@@ -15,6 +16,13 @@ struct PreviewView: View {
                     VStack {
                         Image(systemName: "note.text")
                         Text("Rounds")
+                    }
+                }
+            MoreView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "ellipsis")
+                        Text("More")
                     }
                 }
         }
