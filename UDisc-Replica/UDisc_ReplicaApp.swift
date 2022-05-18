@@ -11,7 +11,15 @@ import SwiftUI
 struct UDisc_ReplicaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                RoundsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "note.text")
+                            Text("Rounds")
+                        }
+                    }
+            }
         }
     }
 }

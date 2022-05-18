@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */; };
-		FC03C2232834557700B1EF2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C2222834557700B1EF2A /* ContentView.swift */; };
+		FC03C2232834557700B1EF2A /* RoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C2222834557700B1EF2A /* RoundsView.swift */; };
 		FC03C2252834557700B1EF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2242834557700B1EF2A /* Assets.xcassets */; };
 		FC03C2282834557700B1EF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2272834557700B1EF2A /* Preview Assets.xcassets */; };
 		FC03C24B2834650500B1EF2A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C24A2834650500B1EF2A /* Header.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		FC03C21D2834557700B1EF2A /* UDisc-Replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDisc-Replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDisc_ReplicaApp.swift; sourceTree = "<group>"; };
-		FC03C2222834557700B1EF2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC03C2222834557700B1EF2A /* RoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsView.swift; sourceTree = "<group>"; };
 		FC03C2242834557700B1EF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC03C2272834557700B1EF2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC03C2292834557700B1EF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */,
-				FC03C2222834557700B1EF2A /* ContentView.swift */,
+				FC03C2222834557700B1EF2A /* RoundsView.swift */,
 				FCF1C5AB283485420011155A /* StatsBar.swift */,
 				FC03C24A2834650500B1EF2A /* Header.swift */,
 				FC03C2242834557700B1EF2A /* Assets.xcassets */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC03C2232834557700B1EF2A /* ContentView.swift in Sources */,
+				FC03C2232834557700B1EF2A /* RoundsView.swift in Sources */,
 				FCF1C5AC283485420011155A /* StatsBar.swift in Sources */,
 				FC03C24B2834650500B1EF2A /* Header.swift in Sources */,
 				FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */,

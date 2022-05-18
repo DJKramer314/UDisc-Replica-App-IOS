@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RoundsView: View {
     var body: some View {
         VStack {
             Header()
@@ -24,6 +24,15 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabView {
+            RoundsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "note.text")
+                        Text("Rounds")
+                    }
+                }
+        }
+        
     }
 }
