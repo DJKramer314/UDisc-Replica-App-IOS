@@ -15,6 +15,7 @@ func fetchCardData(user: String) -> [Card]{
     if user == "DJKramer314" {
         cardData = [
             Card(
+                id: 1,
                 title: "Cottonmill State Park",
                 layout: "Full 19",
                 date: "May 14, 6:07 PM",
@@ -22,6 +23,7 @@ func fetchCardData(user: String) -> [Card]{
                 score: "+9 (66)"
             ),
             Card(
+                id: 2,
                 title: "Holdrege South Park",
                 layout: "Main 9",
                 date: "May 5, 1:02 PM",
@@ -40,15 +42,16 @@ struct ScoresScrollView: View {
             
             //Iterate through all of the cards in cardData and display them
             
-            ForEach (0 ..< cardData.count) { index in
-                cardData[index]
+            ForEach (cardData) { card in
+                card
             }
         }
     }
 }
 
-struct Card: View {
+struct Card: View, Identifiable {
     
+    var id: Int
     var title: String
     var layout: String
     var date: String
