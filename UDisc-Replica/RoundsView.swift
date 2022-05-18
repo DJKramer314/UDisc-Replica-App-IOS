@@ -14,6 +14,8 @@ struct RoundsView: View {
             
             StatsBar()
             
+            CreateScorecardView()
+            
             Spacer()
         }
         .edgesIgnoringSafeArea(.all)
@@ -24,15 +26,6 @@ struct RoundsView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TabView {
-            RoundsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "note.text")
-                        Text("Rounds")
-                    }
-                }
-        }
-        
+        PreviewView()
     }
 }

@@ -13,6 +13,8 @@
 		FC03C2282834557700B1EF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2272834557700B1EF2A /* Preview Assets.xcassets */; };
 		FC03C24B2834650500B1EF2A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C24A2834650500B1EF2A /* Header.swift */; };
 		FCF1C5AC283485420011155A /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AB283485420011155A /* StatsBar.swift */; };
+		FCF1C5AE283493D60011155A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AD283493D60011155A /* PreviewView.swift */; };
+		FCF1C5B1283494850011155A /* CreateScorecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5B0283494850011155A /* CreateScorecardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FC03C2292834557700B1EF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC03C24A2834650500B1EF2A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		FCF1C5AB283485420011155A /* StatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
+		FCF1C5AD283493D60011155A /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		FCF1C5B0283494850011155A /* CreateScorecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScorecardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */,
+				FCF1C5AD283493D60011155A /* PreviewView.swift */,
 				FC03C2222834557700B1EF2A /* RoundsView.swift */,
-				FCF1C5AB283485420011155A /* StatsBar.swift */,
-				FC03C24A2834650500B1EF2A /* Header.swift */,
+				FCF1C5AF283494580011155A /* RoundsViewFiles */,
 				FC03C2242834557700B1EF2A /* Assets.xcassets */,
 				FC03C2292834557700B1EF2A /* Info.plist */,
 				FC03C2262834557700B1EF2A /* Preview Content */,
@@ -73,6 +77,16 @@
 				FC03C2272834557700B1EF2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCF1C5AF283494580011155A /* RoundsViewFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FC03C24A2834650500B1EF2A /* Header.swift */,
+				FCF1C5AB283485420011155A /* StatsBar.swift */,
+				FCF1C5B0283494850011155A /* CreateScorecardView.swift */,
+			);
+			path = RoundsViewFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF1C5AE283493D60011155A /* PreviewView.swift in Sources */,
 				FC03C2232834557700B1EF2A /* RoundsView.swift in Sources */,
+				FCF1C5B1283494850011155A /* CreateScorecardView.swift in Sources */,
 				FCF1C5AC283485420011155A /* StatsBar.swift in Sources */,
 				FC03C24B2834650500B1EF2A /* Header.swift in Sources */,
 				FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */,
