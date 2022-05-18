@@ -16,11 +16,7 @@ struct RoundsView: View {
             
             CreateScorecardView()
             
-            ScrollView {
-                ForEach (1..<100) { i in
-                    Card()
-                }
-            }
+            ScoresScrollView(cardData: fetchCardData(user: "DJKramer314"))
             
             Spacer()
         }
