@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Header()
+            
+            StatsBar()
+            
             Spacer()
         }
         .edgesIgnoringSafeArea(.all)

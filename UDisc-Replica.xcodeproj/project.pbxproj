@@ -12,6 +12,7 @@
 		FC03C2252834557700B1EF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2242834557700B1EF2A /* Assets.xcassets */; };
 		FC03C2282834557700B1EF2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC03C2272834557700B1EF2A /* Preview Assets.xcassets */; };
 		FC03C24B2834650500B1EF2A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C24A2834650500B1EF2A /* Header.swift */; };
+		FCF1C5AC283485420011155A /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AB283485420011155A /* StatsBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC03C2272834557700B1EF2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC03C2292834557700B1EF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC03C24A2834650500B1EF2A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		FCF1C5AB283485420011155A /* StatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */,
 				FC03C2222834557700B1EF2A /* ContentView.swift */,
+				FCF1C5AB283485420011155A /* StatsBar.swift */,
 				FC03C24A2834650500B1EF2A /* Header.swift */,
 				FC03C2242834557700B1EF2A /* Assets.xcassets */,
 				FC03C2292834557700B1EF2A /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC03C2232834557700B1EF2A /* ContentView.swift in Sources */,
+				FCF1C5AC283485420011155A /* StatsBar.swift in Sources */,
 				FC03C24B2834650500B1EF2A /* Header.swift in Sources */,
 				FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */,
 			);

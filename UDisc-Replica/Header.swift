@@ -16,6 +16,6 @@ struct Header: View {
                 .aspectRatio(contentMode: .fit)
                 .padding(EdgeInsets(top: 50, leading: 0, bottom: 10, trailing: 0))
         }
-        .frame(height:100)
+        .frame(height:90)
     }
 }
