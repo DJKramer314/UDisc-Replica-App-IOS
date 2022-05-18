@@ -16,19 +16,34 @@ struct StatsBar: View {
         HStack {
             VStack {
                 Text("\(total_rounds) Rounds")
+                    .font(.body)
+                    .fontWeight(.semibold)
                 Text("Total")
+                    .font(.footnote)
+                    .fontWeight(.light)
+                    
             }
             
             Spacer()
+            
             VStack {
                 Text("\(recent_rounds) Rounds")
+                    .font(.body)
+                    .fontWeight(.semibold)
                 Text("Last 30 Days")
+                    .font(.footnote)
+                    .fontWeight(.light)
             }
             
             Spacer()
+            
             VStack {
                 Text(last_played)
+                    .font(.body)
+                    .fontWeight(.semibold)
                 Text("Last Played")
+                    .font(.footnote)
+                    .fontWeight(.light)
             }
         }
         .padding(.horizontal)
