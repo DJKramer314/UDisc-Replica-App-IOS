@@ -42,8 +42,8 @@ struct ScoresScrollView: View {
             
             //Iterate through all of the cards in cardData and display them
             
-            ForEach (cardData) { card in
-                card
+            ForEach (cardData) { scorecard in
+                scorecard //scorecard is a VIEW of type Card
             }
         }
     }

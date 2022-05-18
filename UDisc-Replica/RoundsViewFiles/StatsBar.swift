@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StatsBar: View {
     var body: some View {
-        let total_rounds = 15
+        let total_rounds = fetchCardData(user: "DJKramer314").count
         let recent_rounds = 5
         let last_played = "Today"
         
