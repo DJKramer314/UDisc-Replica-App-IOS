@@ -17,5 +17,6 @@ struct Header: View {
                 .padding(EdgeInsets(top: 50, leading: 0, bottom: 10, trailing: 0))
         }
         .frame(height:90)
+        .edgesIgnoringSafeArea(.all)
     }
 }
