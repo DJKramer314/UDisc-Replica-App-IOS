@@ -74,7 +74,7 @@ struct Card: View, Identifiable {
                         Text(score)
                     }
                 }
-            }.padding().background(Button(action:{print("card clicked")}) {Color.gray})
+            }
             Spacer()
         }
     }
