@@ -9,7 +9,8 @@ import SwiftUI
 
 struct RoundsView: View {
     
-    @EnvironmentObject var appData: AppData
+//    @EnvironmentObject var appData: AppData
+//    Unused so far
     
     var body: some View {
         VStack {
@@ -19,7 +20,7 @@ struct RoundsView: View {
             
             CreateScorecardButtonView()
             
-            ScoresScrollView(cardData: fetchCardData(user: appData.user))
+            ScoresScrollView()
             
             Spacer()
         }
