@@ -26,9 +26,15 @@ struct Card: View, Identifiable {
     var id: Int
     var title: String
     var layout: String
-    var date: String
+    var date: Date
     var user: String
     var score: String
+    
+    func formatDate(_ inputDate: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm:ss MMM d, YYYY"
+        return dateFormatter.string(from: inputDate)
+    }
     
     var body: some View {
         HStack {
@@ -37,7 +43,7 @@ struct Card: View, Identifiable {
                     Text(title)
                     Text(layout)
                 }
-                Text(date)
+                Text(formatDate(date))
                 HStack {
                     Image(systemName: "figure.walk")
                     VStack{
