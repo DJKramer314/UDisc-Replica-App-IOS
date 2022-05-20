@@ -14,9 +14,10 @@
 		FC03C24B2834650500B1EF2A /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03C24A2834650500B1EF2A /* Header.swift */; };
 		FC350CAB28353B93009CAE50 /* ScoresScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */; };
 		FC350CAD2835486D009CAE50 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC350CAC2835486D009CAE50 /* MoreView.swift */; };
+		FC77904A283740A10014D64A /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC779049283740A10014D64A /* AppData.swift */; };
 		FCF1C5AC283485420011155A /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AB283485420011155A /* StatsBar.swift */; };
 		FCF1C5AE283493D60011155A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5AD283493D60011155A /* PreviewView.swift */; };
-		FCF1C5B1283494850011155A /* CreateScorecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5B0283494850011155A /* CreateScorecardView.swift */; };
+		FCF1C5B1283494850011155A /* CreateScorecardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1C5B0283494850011155A /* CreateScorecardButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 		FC03C24A2834650500B1EF2A /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresScrollView.swift; sourceTree = "<group>"; };
 		FC350CAC2835486D009CAE50 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		FC779049283740A10014D64A /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		FCF1C5AB283485420011155A /* StatsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
 		FCF1C5AD283493D60011155A /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
-		FCF1C5B0283494850011155A /* CreateScorecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScorecardView.swift; sourceTree = "<group>"; };
+		FCF1C5B0283494850011155A /* CreateScorecardButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScorecardButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				FC03C2202834557700B1EF2A /* UDisc_ReplicaApp.swift */,
+				FC779049283740A10014D64A /* AppData.swift */,
 				FCF1C5AD283493D60011155A /* PreviewView.swift */,
 				FC03C2222834557700B1EF2A /* RoundsView.swift */,
 				FC03C24A2834650500B1EF2A /* Header.swift */,
@@ -89,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				FCF1C5AB283485420011155A /* StatsBar.swift */,
-				FCF1C5B0283494850011155A /* CreateScorecardView.swift */,
+				FCF1C5B0283494850011155A /* CreateScorecardButtonView.swift */,
 				FC350CAA28353B93009CAE50 /* ScoresScrollView.swift */,
 			);
 			path = RoundsViewFiles;
@@ -167,11 +170,12 @@
 				FCF1C5AE283493D60011155A /* PreviewView.swift in Sources */,
 				FC350CAB28353B93009CAE50 /* ScoresScrollView.swift in Sources */,
 				FC03C2232834557700B1EF2A /* RoundsView.swift in Sources */,
-				FCF1C5B1283494850011155A /* CreateScorecardView.swift in Sources */,
+				FCF1C5B1283494850011155A /* CreateScorecardButtonView.swift in Sources */,
 				FCF1C5AC283485420011155A /* StatsBar.swift in Sources */,
 				FC03C24B2834650500B1EF2A /* Header.swift in Sources */,
 				FC03C2212834557700B1EF2A /* UDisc_ReplicaApp.swift in Sources */,
 				FC350CAD2835486D009CAE50 /* MoreView.swift in Sources */,
+				FC77904A283740A10014D64A /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

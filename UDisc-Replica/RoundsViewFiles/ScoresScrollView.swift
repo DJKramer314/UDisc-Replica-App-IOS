@@ -7,42 +7,14 @@
 
 import SwiftUI
 
-func fetchCardData(user: String) -> [Card]{
-    
-    var cardData:[Card] = []
-    
-    //Dummy data for now below
-    if user == "DJKramer314" {
-        cardData = [
-            Card(
-                id: 1,
-                title: "Cottonmill State Park",
-                layout: "Full 19",
-                date: "May 14, 6:07 PM",
-                user: user,
-                score: "+9 (66)"
-            ),
-            Card(
-                id: 2,
-                title: "Holdrege South Park",
-                layout: "Main 9",
-                date: "May 5, 1:02 PM",
-                user: user,
-                score: "-2 (25)"
-            )
-        ]
-    }
-    return cardData
-}
-
 struct ScoresScrollView: View {
-    var cardData: [Card]
+    @EnvironmentObject var appData: AppData
     var body: some View {
         ScrollView {
             
             //Iterate through all of the cards in cardData and display them
             
-            ForEach (cardData) { scorecard in
+            ForEach (appData.userRounds) { scorecard in
                 scorecard //scorecard is a VIEW of type Card
             }
         }

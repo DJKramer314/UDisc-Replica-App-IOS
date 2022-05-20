@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct RoundsView: View {
+    
+    @EnvironmentObject var appData: AppData
+    
     var body: some View {
         VStack {
             Header()
             
             StatsBar()
             
-            CreateScorecardView()
+            CreateScorecardButtonView()
             
-            ScoresScrollView(cardData: fetchCardData(user: "DJKramer314"))
+            ScoresScrollView(cardData: fetchCardData(user: appData.user))
             
             Spacer()
         }

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct PreviewView: View {
     
+    @StateObject var appData = AppData()
+    
     var body: some View {
         TabView {
             RoundsView()
@@ -25,6 +27,6 @@ struct PreviewView: View {
                         Text("More")
                     }
                 }
-        }
+        }.environmentObject(appData)
     }
 }

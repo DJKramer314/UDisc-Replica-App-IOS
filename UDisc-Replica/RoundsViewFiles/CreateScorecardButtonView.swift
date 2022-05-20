@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CreateScorecardView: View {
+struct CreateScorecardButtonView: View {
     var body: some View {
         ZStack {
             Color.gray

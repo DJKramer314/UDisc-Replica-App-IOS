@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct StatsBar: View {
+    
+    @EnvironmentObject var appData: AppData
+    
     var body: some View {
-        let total_rounds = fetchCardData(user: "DJKramer314").count
+        let total_rounds = appData.userRounds.count
         let recent_rounds = 5
         let last_played = "Today"
         
