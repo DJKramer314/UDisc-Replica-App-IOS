@@ -16,6 +16,7 @@ struct CreateScorecardButtonView: View {
     
     private func createScoreCard() {
         appData.userRounds.append(Card(id: appData.userRounds.count, title: "Home Course", layout: "Main 9", date: Date(), user: appData.user, score: "0 (27)"))
+        appData.cardsAreVisible = true
     }
         
     var body: some View {

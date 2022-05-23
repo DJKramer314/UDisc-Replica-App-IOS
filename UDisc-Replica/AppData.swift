@@ -10,4 +10,5 @@ import SwiftUI
 class AppData: ObservableObject {
     @Published var user: String = ""
     @Published var userRounds: [Card] = []
+    @Published var cardsAreVisible: Bool = false
 }

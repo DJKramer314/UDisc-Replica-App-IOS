@@ -9,8 +9,7 @@ import SwiftUI
 
 struct RoundsView: View {
     
-//    @EnvironmentObject var appData: AppData
-//    Unused so far
+    @EnvironmentObject var appData: AppData
     
     var body: some View {
         VStack {
@@ -20,7 +19,17 @@ struct RoundsView: View {
             
             CreateScorecardButtonView()
             
-            ScoresScrollView()
+            
+            if appData.cardsAreVisible {
+                List {
+                    ScoresScrollView()
+                }
+            } else {
+                List {
+                    ScoresScrollView()
+                }.hidden()
+            }
+            
             
             Spacer()
         }

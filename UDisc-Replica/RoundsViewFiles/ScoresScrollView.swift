@@ -37,24 +37,24 @@ struct Card: View, Identifiable {
     }
     
     var body: some View {
-        HStack {
-            VStack {
-                HStack(spacing: 20) {
-                    Text(title)
-                    Text(layout)
-                }
-                Text(formatDate(date))
-                HStack {
-                    Image(systemName: "figure.walk")
-                    VStack{
-                        Text(user)
-                            .fontWeight(.bold)
-                        Text(score)
+            HStack {
+                VStack {
+                    HStack() {
+                        Text(title)
+                        Text(layout)
+                    }
+                    Text(formatDate(date))
+                    HStack {
+                        Image(systemName: "figure.walk")
+                        VStack{
+                            Text(user)
+                                .fontWeight(.bold)
+                            Text(score)
+                        }
                     }
                 }
+                Spacer()
             }
-            Spacer()
-        }
     }
 }
 
