@@ -7,20 +7,34 @@
 
 import SwiftUI
 
-
-
-
 struct CreateScorecardButtonView: View {
     
     @EnvironmentObject var appData: AppData
     
     private func createScoreCard() {
+        
+        //Creates a dummy card with today's date
         appData.userRounds.append(Card(id: appData.userRounds.count, title: "Home Course", layout: "Main 9", date: Date(), user: appData.user, score: "0 (27)"))
+        
+        //Allows the cards to be seen once the button is pressed
         appData.cardsAreVisible = true
         
-        appData.encoder.outputFormatting = .prettyPrinted
-        let userRoundsEncodedData = try! appData.encoder.encode(appData.userRounds)
-        appData.defaults.set(userRoundsEncodedData, forKey: "userRounds")
+        do {
+            
+            //Tries to turn the Card array into the type Data for the Defaults file
+            let userRoundsEncodedData = try appData.encoder.encode(appData.userRounds)
+            
+            //Uploads the new card data into the User Defaults file
+            appData.defaults.set(userRoundsEncodedData, forKey: "userRounds")
+            
+        } catch {
+            
+            //Catch all error message
+            print("error uploading scorecard data after creation")
+            
+        }
+        
+        
     }
         
     var body: some View {
