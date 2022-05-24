@@ -21,7 +21,7 @@ struct ScoresScrollView: View {
     }
 }
 
-struct Card: View, Identifiable {
+struct Card: View, Identifiable, Codable {
     
     var id: Int
     var title: String
