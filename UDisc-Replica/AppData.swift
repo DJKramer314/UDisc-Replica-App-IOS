@@ -19,7 +19,10 @@ class AppData: ObservableObject {
     @Published var defaults = UserDefaults.standard
     
     init() {
+        
+        //Retrieves the encoded data from the last usage of the app (the last pressing of the create scorecard button)
         let userRoundsEncodedData = UserDefaults.standard.data(forKey: "userRounds") ?? Data()
+        
         do {
             userRounds = try decoder.decode([Card].self, from: userRoundsEncodedData)
             
