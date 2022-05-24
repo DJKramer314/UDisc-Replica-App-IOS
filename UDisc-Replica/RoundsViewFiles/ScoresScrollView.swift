@@ -15,46 +15,8 @@ struct ScoresScrollView: View {
             //Iterate through all of the cards in cardData and display them
             
             ForEach (appData.userRounds) { scorecard in
-                scorecard //scorecard is a VIEW of type Card
+                CardView(inputCard: scorecard) //scorecard is a of type Card
             }
         }
     }
 }
-
-struct Card: View, Identifiable, Codable {
-    
-    var id: Int
-    var title: String
-    var layout: String
-    var date: Date
-    var user: String
-    var score: String
-    
-    func formatDate(_ inputDate: Date) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "HH:mm:ss MMM d, YYYY"
-        return dateFormatter.string(from: inputDate)
-    }
-    
-    var body: some View {
-            HStack {
-                VStack {
-                    HStack() {
-                        Text(title)
-                        Text(layout)
-                    }
-                    Text(formatDate(date))
-                    HStack {
-                        Image(systemName: "figure.walk")
-                        VStack{
-                            Text(user)
-                                .fontWeight(.bold)
-                            Text(score)
-                        }
-                    }
-                }
-                Spacer()
-            }
-    }
-}
-
